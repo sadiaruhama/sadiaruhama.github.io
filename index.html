@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sadia Ruhama — Research & Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="container nav-row">
+      <div class="logo">Sadia Ruhama</div>
+        <nav>
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#projects">Projects</a>
+          <a href="#work">Work</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-about">
+            <h2>About Me</h2>
+            <div class="announcement" role="note">Seeking PhD opportunities for Fall 2027.</div>
+            <p>I am currently pursuing a Master's in <strong>Computer Science and Engineering</strong> at <strong>BRAC University</strong> in Dhaka, Bangladesh.</p>
+ 
+            <p>My research interests lie at the intersection of <strong>computational biology and machine learning </strong>, with a particular focus on developing computational methods for <strong>single-cell and spatial transcriptomics, and multi-omics integration.</strong></p>
+
+            <p>I am captivated by the mathematical side of biology and drawn to questions of <strong>cellular heterogeneity, gene regulation, and spatial cellular interactions</strong> in health and disease through interpretable and statistically rigorous computational approaches. My long-term goal is to develop methods that advance our understanding of disease mechanisms and contribute to biological discovery and precision medicine.</p>
+            <p>
+              <a class="btn primary" href="#contact">Get in touch</a>
+            </p>
+          </div>
+          <aside class="hero-card">
+            <div class="image-rect">
+              <img src="assets/ruhama.png" alt="Sadia Ruhama" class="profile-img-rect">
+            </div>
+            <p class="name-under name-pink">SADIA RUHAMA</p>
+            <div class="social-icons">
+              <a href="https://github.com/sadiaruhama" target="_blank" rel="noopener noreferrer" aria-label="Code — Sadia Ruhama">
+                <img src="assets/github.svg" alt="Code">
+              </a>
+              <a href="https://www.linkedin.com/in/sadia-ruhama-1762093b4/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn — Sadia Ruhama">
+                <img src="assets/linkedin.svg" alt="LinkedIn">
+              </a>
+              <a href="https://scholar.google.com/citations?user=t7xKFJkAAAAJ&hl=en" target="_blank" rel="noopener noreferrer" aria-label="Google Scholar — Sadia Ruhama">
+                <img src="assets/google-scholar.svg" alt="Google Scholar">
+              </a>
+              <a href="mailto:sadia.ruhama@g.bracu.ac.bd" aria-label="Email — Sadia Ruhama">
+                <img src="assets/email.svg" alt="Email">
+              </a>
+            </div>
+            
+          </aside>
+        </div>
+      </section>
+
+      <section id="education" class="container section">
+        <h2>Education</h2>
+        <div class="education-list">
+          <div class="edu-item">
+            <div class="edu-main">
+              <h3 class="edu-degree">Master of Science in Computer Science and Engineering</h3>
+              <p class="edu-institution">BRAC University · Specialization: Data Science</p>
+            </div>
+            <div class="edu-date">Jan 2026 – Mar 2027 · Expected</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-main">
+              <h3 class="edu-degree">Bachelor of Science in Computer Science</h3>
+              <p class="edu-institution">BRAC University</p>
+            </div>
+            <div class="edu-date">Jan 2022 – Nov 2025</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-main">
+              <h3 class="edu-degree">Advanced Level (A Level)</h3>
+              <p class="edu-institution">Adroit International School</p>
+            </div>
+            <div class="edu-date">2019 – 2021</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-main">
+              <h3 class="edu-degree">Ordinary Level (O Level)</h3>
+              <p class="edu-institution">Academia School</p>
+            </div>
+            <div class="edu-date">2019</div>
+          </div>
+        </div>
+      </section>
+
+
+
+      <section id="research" class="container section">
+        <h2>Research Experience</h2>
+        <div class="research-list">
+          <article class="card">
+            <h3>Undergraduate Thesis: Development of an interpretable ensemble model to predict immune checkpoint inhibitor therapy response in bladder cancer patients</h3>
+            <div class="research-date">2025</div>
+            <p class="muted"><strong>Authors:</strong> <span class="author-highlight">Sadia Ruhama</span>*, Syed Ayman Shahbad*, Ahnaf Warid (*equal contribution)</p>
+            <!-- <p class="muted"><strong>Supervisor:</strong> <a href="https://www.bracu.ac.bd/about/people/md-ashraful-alam-phd" target="_blank" rel="noopener noreferrer">Dr. Md. Ashraful Alam</a></p> -->
+            <p class="muted">Developed an ensemble feature selection framework combining SVM-RFE, RF-RFE, Mutual Information, and LR-RFE with frequency-based majority voting to identify predictive biomarkers for pembrolizumab response in bladder cancer. Applied to the GSE111636 dataset (11 patients, 70,000+ gene features) using nested Leave-One-Out Cross-Validation to address the "curse of dimensionality" in low-sample, high-dimensional gene expression data. Benchmarked against deep learning approaches (Concrete Autoencoder, L1-regularized Neural Network), the ensemble method identified a stable 11-gene candidate biomarker signature (including TOP2A, ZEB2, PTCH1, CDCA5), validated through DAVID functional enrichment analysis linking the genes to immune checkpoint regulation and tumor progression pathways.</p>
+            <p class="muted"><strong>Keywords:</strong> Bladder Cancer · Ensemble Feature Selection · Immune Checkpoint Inhibitor (ICI) Therapy · High-Dimensional Gene Expression · Interpretable Machine Learning</p>
+            <p class="muted research-links"><a href="https://dspace.bracu.ac.bd/items/2e57afe7-17e9-4c48-b5c6-7354989959b1" target="_blank" rel="noopener noreferrer">View Thesis Online →</a></p>
+          </article>
+
+          <article class="card">
+            <h3>An Exploratory Multiome Analysis of a BCG-Associated HSPC Signature: Trained-Immunity Marker in Blood and an Adverse Prognostic Association in Tumour</h3>
+            <div class="research-date"> 2026</div>
+            <p class="muted"><strong>Author:</strong> Sadia Ruhama</p>
+            <p class="publication-status">Manuscript in preparation</p>
+            <p class="muted">Conducted an exploratory integrative analysis of paired scRNA-seq and scATAC-seq data from 653 hematopoietic stem and progenitor cells (HSPCs) across two bladder cancer patients before and after BCG treatment. Applied MOFA+ to identify a candidate BCG-associated latent factor and derive gene signatures, including 48 genes shared across patient-specific and joint models. Investigated regulatory motifs and biological pathways, and evaluated signature associations across four external datasets, revealing potentially context-dependent patterns in immune cells and bladder cancer outcomes.</p>
+            <p class="muted"><strong>Keywords:</strong> Single-Cell Multiomics · MOFA+ · Functional Genomics · BCG Immunotherapy </p>
+            <p class="muted research-links"><a href="https://drive.google.com/file/d/1LQv15XNiB_qGPzyvnaBFK8iHwgerza0V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report (PDF) →</a><a href="https://github.com/sadiaruhama/MultiomeLatent" target="_blank" rel="noopener noreferrer">Code →</a></p>
+          </article>
+
+
+
+          <article class="card">
+            <h3>Efficient Multimodal Relation-Aware Graph Learning for Spatial Transcriptomics</h3>
+            <div class="research-date"> 2026</div>
+            <p class="muted"><strong>Author:</strong> Sadia Ruhama</p>
+            <p class="publication-status">Ongoing research project</p>
+            <p class="muted">Developing a lightweight multimodal relation-aware Graph Neural Network (GNN) for spatial transcriptomics that integrates gene-expression data with paired histopathology images. While existing approaches have explored multimodal integration and complex graph architectures, this research investigates whether compact multimodal fusion and parameter-efficient relational message passing can achieve competitive predictive performance with lower computational costs. The proposed framework models both spatial proximity and molecular similarity using shared transformations and low-rank relation-specific adapters. Through controlled experiments and masked gene-expression prediction, the study will independently evaluate the contributions of each modality and graph relationship, while benchmarking predictive accuracy, training time, GPU memory usage, and scalability against established GNN architectures.</p>
+            <p class="muted"><strong>Keywords:</strong> Spatial Transcriptomics · Multimodal Learning · Graph Neural Networks · Computational Efficiency </p>
+            <!-- <p class="muted research-links"><a href="https://drive.google.com/file/d/1LQv15XNiB_qGPzyvnaBFK8iHwgerza0V/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report (PDF) →</a><a href="https://github.com/sadiaruhama/MultiomeLatent" target="_blank" rel="noopener noreferrer">Code →</a></p> -->
+          </article>
+
+
+
+          <article class="card">
+            <h3>Rare Cell-Type Identification Under Batch Shift: Bayesian Active Learning on a LoRA-Adapted Vision Foundation Model</h3>
+            <div class="research-date">2026</div>
+            <p class="muted"><strong>Author:</strong> Sadia Ruhama</p>
+            <p class="muted">Developed an uncertainty-aware active learning framework for rare cell-category recognition in microscopy images under simulated extreme class imbalance and limited labeled data. Integrated DINOv2, parameter-efficient LoRA fine-tuning, Bayesian uncertainty estimation (MC-Dropout), and class-balanced BALD to prioritize informative samples for annotation. Evaluated on LIVECell using held-out imaging wells, achieving a macro-F1 of 0.629 and rare-class AUPRC of 0.627, demonstrating the framework’s potential for label-efficient cell recognition under imaging batch variation.</p>
+            <p class="muted"><strong>Keywords:</strong> Vision Foundation Models · Biomedical Image Analysis · Bayesian Active Learning · Rare Cell Classification · Uncertainty-Aware Learning</p>
+            <p class="muted research-links"><a href="https://drive.google.com/file/d/1W4oCpCD6pc2AOZDkW7QKE6ERockVD2iV/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report (PDF) →</a><a href="https://github.com/sadiaruhama/Rare-Cell-Type-Identification-Under-Batch-Shift-" target="_blank" rel="noopener noreferrer">Code →</a></p>
+          </article>
+
+
+          <h3 class="research-subheading">Other Research</h3>
+          <article class="card">
+            <h3>The Trusted Assistant Blind Spot: Human Detection of and Compliance with Environmentally-Injected Attacks on VLM-Mediated Augmented Reality</h3>
+            <div class="research-date">2026</div>
+            <p class="muted"><strong>Authors:</strong> Tuhin Mridha, <span class="author-highlight">Sadia Ruhama</span>, Himika Tasnim</p>
+            <p class="publication-status">Manuscript in preparation</p>
+            <!-- <p class="muted"><strong>Supervisor:</strong> <a href="https://cse.bracu.ac.bd/faculty_profile/211/dr_farida_chowdhury" target="_blank" rel="noopener noreferrer">Dr. Farida Chowdhury</a></p> -->
+            <p class="muted">A human-centered cybersecurity research project investigating how environmental prompt-injection attacks on Vision-Language Model (VLM)-powered Augmented Reality (AR) assistants influence human decision-making. The study proposes controlled experiments comparing unaided, uncompromised, and adversarially manipulated AR guidance to examine attack detectability, behavioral compliance, and failure attribution. Using behavioral measurements, participant interviews, and mixed-effects logistic regression, the research aims to understand how trust in AI, task complexity, and malicious payload presentation influence user responses to compromised guidance, highlighting human-centered vulnerabilities in AI-assisted environments.</p>
+            <p class="muted"><strong>Keywords:</strong> Human–AI Interaction · VLM · Augmented Reality · Prompt Injection · AI Security</p>
+            <p class="muted research-links"><a href="https://drive.google.com/file/d/1FFmuK6c6mRIjRCMutVyEYe0p9P8tOfRo/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report (PDF) →</a></p>
+          </article>
+
+
+          <article class="card">
+            <h3>Advancement in Detection of Melanoma: A Systematic Literature Review on CNN Utilization</h3>
+            <div class="research-date">2024</div>
+            <p class="muted"><strong>Authors:</strong> <span class="author-highlight">Sadia Ruhama</span>, Anit Paul</p>
+            <!-- <p class="muted"><strong>Supervisor:</strong> <a href="https://cse.bracu.ac.bd/faculty_profile/211/dr_farida_chowdhury" target="_blank" rel="noopener noreferrer">Dr. Farida Chowdhury</a></p> -->
+            <p class="muted">Conducted a Systematic Literature Review (SLR) using a PRISMA-based selection process, initially retrieving 109,275 records from six digital libraries and selecting 18 studies on CNN-based melanoma detection. Examined how dataset size, diversity, model architectures, and optimization techniques influence classification performance. Reviewed findings included an improvement in Inception-v3's F1 score from 54.10% to 96.29% with data augmentation and Bayesian tuning. The review highlighted the potential of CNNs to support melanoma image classification while identifying limitations involving data availability, interpretability, computational requirements, and overfitting.</p>
+            <p class="muted"><strong>Keywords:</strong> Melanoma Detection · Convolutional Neural Network (CNN) · Systematic Literature Review (SLR) · Skin Cancer · Medical Image Classification · Deep Learning · Computer-Aided Diagnosis</p>
+            <p class="muted research-links"><a href="https://drive.google.com/file/d/1a3Fquf7awPhiP5Ml8ReTwtzsfTJ-OO0o/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report (PDF) →</a></p>
+          </article>
+
+
+        </div>
+      </section>
+
+      <section id="projects" class="container section">
+        <h2> Projects</h2>
+        <div class="project-filters" role="group" aria-label="Filter projects by category">
+          <button class="project-filter" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="project-filter" type="button" data-filter="computational-biology" aria-pressed="false">Computational Biology</button>
+          <button class="project-filter" type="button" data-filter="machine-learning" aria-pressed="false">Deep Learning</button>
+          <button class="project-filter" type="button" data-filter="llm" aria-pressed="false">LLM</button>
+        </div>
+        <div class="projects-grid">
+
+
+          <article class="project-card" data-category="computational-biology">
+            <h3 class="project-title">Adaptive Perturb-seq RL </h3>
+            <p class="project-desc">Developed a reinforcement learning framework for adaptive Perturb-seq experimental design, combining Proximal Policy Optimization (PPO) with Bayesian causal graph estimation to prioritize gene perturbations under limited budgets. Evaluated on synthetic models and real Perturb-seq data, investigating the effects of data sparsity, experimental costs, and budget constraints while assessing reward reliability and limitations in causal discovery.</p>
+            <div class="project-tags">
+              <span>Single-Cell Genomics</span>
+              <span>Perturb-seq</span>
+              <span>PPO</span>
+              <span>SCM</span>
+              <span>MDP</span>
+            </div>
+            <!-- <div class="project-meta small muted">902 AML samples · Validation R²: 0.9523 · Test R²: 0.8928</div> -->
+            <div class="project-links">
+              <a class="link-btn" href="https://drive.google.com/file/d/1pfNlsein8XGif2IcEGZlGaHjQ66OPZwQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a>
+
+              <a class="link-btn" href="https://github.com/sadiaruhama/perturbseq-RL" aria-label="Code repository" target="_blank" rel="noopener noreferrer">Github →</a>
+            </div>
+          </article>
+
+
+          <article class="project-card compact" data-category="computational-biology">
+            <h3 class="project-title">NeuroOmics</h3>
+            <p class="project-desc">A distributed multimodal machine learning pipeline for depression risk stratification using RNA-Seq, blood biomarkers, and EEG. Built with PySpark for scalable late-fusion modelling and SHAP-based explainability.Incorporates K-Means clustering for biological subtype discovery and ALS-based personalized therapy recommendations.</p>
+            <div class="project-tags">
+              <span>PySpark</span>
+              <span>multimodal</span>
+              <span>depression</span>
+              <span>SHAP</span>
+            </div>
+            <div class="project-links">
+              <a class="link-btn" href="https://drive.google.com/file/d/1rjT7VVcT5OvDiA9Ku7_Ufe0Plj_9YcKz/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a>
+              <a class="link-btn" href="https://github.com/sadiaruhama/NeuroOmics" target="_blank" rel="noopener noreferrer">Github →</a>
+            </div>
+          </article>
+
+
+
+
+          <article class="project-card" data-category="computational-biology">
+            <h3 class="project-title">CortexMap: Spatial Transcriptomics Analysis </h3>
+            <p class="project-desc">Analyzed human brain spatial transcriptomics data using PCA, highly variable gene selection, and Leiden clustering to investigate cortical layer organization. Compared feature-selection strategies across five DLPFC tissue samples and evaluated clustering performance using ARI and NMI.</p>
+            <div class="project-tags">
+              <span>Spatial Transcriptomics</span>
+              <span>Feature Selection</span>
+              <span>PCA</span>
+              <span>Leiden Clustering</span>
+              <span>Scanpy</span>
+            </div>
+            <!-- <div class="project-meta small muted">902 AML samples · Validation R²: 0.9523 · Test R²: 0.8928</div> -->
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/sadiaruhama/DLPFC-Spatial-Transcriptomics-Analysis" aria-label="Code repository" target="_blank" rel="noopener noreferrer">Github →</a>
+              <!-- <a class="link-btn" href="https://drive.google.com/file/d/1pfNlsein8XGif2IcEGZlGaHjQ66OPZwQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a> -->
+            </div>
+          </article>
+
+
+          <article class="project-card" data-category="computational-biology">
+            <h3 class="project-title">DrugSense-AML </h3>
+            <p class="project-desc">Developed an SVR-based model for predicting drug sensitivity (IC50) using cancer cell-line data from GDSC2. Applied recursive feature elimination (RFE) and GridSearchCV for feature selection and hyperparameter optimization, achieving R² = 0.9523 on validation data and R² = 0.8928 on test data. </p>
+            <div class="project-tags">
+              <span>Python</span>
+              <span>SVR</span>
+              <span>Scikit-learn</span>
+              <span>Feature Selection</span>
+              <span>Cancer Genomics</span>
+            </div>
+            <!-- <div class="project-meta small muted">902 AML samples · Validation R²: 0.9523 · Test R²: 0.8928</div> -->
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/sadiaruhama/genomic-drug-response-svr" aria-label="Code repository" target="_blank" rel="noopener noreferrer">Github →</a>
+              <!-- <a class="link-btn" href="https://drive.google.com/file/d/1ra5yQ0Y58gz_6oafPBW0DD2rhihuNmO6/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a> -->
+            </div>
+          </article>
+
+          <article class="project-card" data-category="machine-learning">
+            <h3 class="project-title">Multi-Modal VAEs for Hybrid-Language Music Clustering</h3>
+            <p class="project-desc">Explored unsupervised music clustering using Variational Autoencoders (VAEs), combining GTZAN audio features (MFCCs and mel-spectrograms) with Hindi–English lyric embeddings. Compared VAE variants and baseline models to evaluate clustering quality, semantic alignment, and the impact of multimodal fusion.</p>
+            <!-- <div class="project-meta small muted">Dataset scales: 9,202 · 837 · 337 · Metrics: Silhouette, NMI, ARI.</div> -->
+                        <!-- <p class="muted">VAE > PCA (Silhouette); Autoencoder best semantic alignment (NMI 0.38, ARI 0.30); multimodal fusion degraded due to noisy pseudo-lyrics.</p> -->
+
+            <div class="project-tags">
+              <span>PyTorch</span>
+              <span>VAE</span>
+              <span>Multimodal</span>
+              <span>Sentence-Transformers</span>
+              <span>Clustering</span>
+            </div>
+            <div class="project-links">
+              <a class="link-btn" href="https://drive.google.com/file/d/1Bscx8DlDy-i9AZj9ZnPP5goFucGacDsF/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a>
+              <a class="link-btn" href="https://github.com/sadiaruhama/multimodal-music-clustering-vae" target="_blank" rel="noopener noreferrer">Github →</a>
+            </div>
+          </article>
+
+          <article class="project-card" data-category="llm">
+            <h3 class="project-title">Clinical SOAP Note Generator: Bilingual Ambient AI</h3>
+            <p class="project-desc">Transforms bilingual (Bangla–English) clinical conversations into structured SOAP notes using a fine-tuned BART-Large-CNN and SentencePiece tokenization.</p>
+            <div class="project-meta small muted">Deployed on Hugging Face Spaces</div>
+            <div class="project-tags">
+              <span>BART-Large-CNN</span>
+              <span>Gradio</span>
+              <span>PyTorch</span>
+              <span>Bilingual</span>
+              <span>Medical AI</span>
+            </div>
+            <div class="project-links">
+              <a class="link-btn" href="https://github.com/sadiaruhama/Clinical-SOAP-Note-Generator---Bilingual-Ambient-AI-for-Medical-Documentation" target="_blank" rel="noopener noreferrer">Github →</a>
+              <a class="link-btn" href="https://ruhameow-medical-soap-scribe.hf.space/" target="_blank" rel="noopener noreferrer">Hugging Face →</a>
+            </div>
+            <p class="muted">Example eval: ROUGE-1 = 0.5672 · ROUGE-L = 0.4517.</p>
+          </article>
+
+          <article class="project-card" data-category="llm">
+            <h3 class="project-title">Nanbeige4-3B Blind Spots</h3>
+            <p class="project-desc">Diagnosed and catalogued systematic failure modes in Nanbeige4-3B-Base (3B params), formatting violations, CoT leakage, and repetition loops, and proposed an SFT + DPO fine-tuning strategy to address them.</p>
+            <div class="project-meta small muted">10 diagnostic test cases · 7 failure categories identified</div>
+            <div class="project-tags">
+              <span>Transformers</span>
+              <span>PyTorch</span>
+              <span>LLM Evaluation</span>
+              <span>Prompt Engineering</span>
+            </div>
+            <div class="project-links">
+              <a class="link-btn" href="https://huggingface.co/datasets/ruhameow/nanbeige4-3b-blindspots" target="_blank" rel="noopener noreferrer">Dataset →</a>
+            </div>
+          </article>
+
+
+
+          <article class="project-card" data-category="machine-learning">
+            <h3 class="project-title">Deepfake Video Detection</h3>
+            <p class="project-desc">Developed a deep learning pipeline for detecting manipulated videos using MTCNN for facial extraction and EfficientNet for real-versus-fake classification. Applied frame-level preprocessing and video-based data splitting, achieving a binary cross-entropy loss of 0.4515.</p>
+            <!-- <div class="project-meta small muted">Deployed on Hugging Face Spaces</div> -->
+            <div class="project-tags">
+              <span>EfficientNet</span>
+              <span>Deep Learning</span>
+              <span>Deepfake</span>
+            </div>
+            <div class="project-links">
+              <a class="link-btn" href="https://drive.google.com/file/d/19dCpGPE24sP9vQqLK2ijYM4IOZJh7EQa/view?usp=sharing" target="_blank" rel="noopener noreferrer">Report →</a>
+
+              <a class="link-btn" href="https://github.com/sadiaruhama/EffiFakeDetect-EfficientNet-Based-Deepfake-Video-Detection" target="_blank" rel="noopener noreferrer">Github →</a>
+
+
+            </div>
+          </article>
+
+
+
+          <div class="projects-more">
+            <a class="link-btn" href="https://github.com/sadiaruhama" target="_blank" rel="noopener noreferrer" aria-label="More projects on Github">More on Github →</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" class="container section">
+        <h2>Work Experience</h2>
+        <div class="experience-list">
+          <article class="experience-card">
+            <div class="exp-main">
+              <h3>ICT Instructor</h3>
+              <p class="muted">American Standard International School</p>
+              <ul>
+                <li>Taught ICT following the <strong>International Baccalaureate (IB) curriculum</strong>.</li>
+                <li>Designed and delivered engaging, student-centered lessons and learning activities aligned with IB learning objectives.</li>
+                <li>Assessed student learning through classwork, assignments, and examinations while providing constructive feedback to support academic development.</li>
+              </ul>
+            </div>
+            <div class="exp-date">Present</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="honors" class="container section">
+        <h2>Honors &amp; Awards</h2>
+        <div class="award-list">
+          <article class="award-card">
+            <img src="assets/award.svg" alt="Award" class="award-icon">
+            <div class="award-body">
+              <strong>40% Waiver for M.Sc. in Computer Science and Engineering</strong>
+              <p class="muted">BRAC University · 2026</p>
+            </div>
+
+
+
+<!-- 
+          </article>
+          <article class="award-card">
+            <img src="assets/award.svg" alt="Award" class="award-icon">
+            <div class="award-body">
+              <strong>Graduated with Distinction</strong>
+              <p class="muted">Appeared on the Dean's List and VC's List during undergraduate studies.</p>
+            </div> -->
+
+
+
+
+
+          </article>
+          <article class="award-card">
+            <img src="assets/award.svg" alt="Award" class="award-icon">
+            <div class="award-body">
+              <strong>Appeared on the Dean's List and VC's List during undergraduate studies.</strong>
+              <p class="muted">BRAC University </p>
+            </div>
+
+
+
+
+
+
+          </article>
+          <article class="award-card">
+            <img src="assets/award.svg" alt="Award" class="award-icon">
+            <div class="award-body">
+              <strong>Adroit International School High Achiever's Award</strong>
+              <p class="muted">Awarded for outstanding A Level results.</p>
+            </div>
+          </article>
+          <article class="award-card">
+            <img src="assets/award.svg" alt="Award" class="award-icon">
+            <div class="award-body">
+              <strong>Academia High Achiever's Award</strong>
+              <p class="muted">Awarded for outstanding O Level results.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" class="container section">
+        <h2>Certifications &amp; Workshops</h2>
+        <div class="cert-list">
+          <article class="cert-card">
+            <h4>Workshop on Protein Folding and AlphaFold <span class="cert-source">BRAC University · 2026</span></h4>
+            <p class="muted">Completed an in-depth workshop on <strong>protein folding, structural biology, and AlphaFold-based protein structure prediction</strong>.</p>
+          </article>
+          <article class="cert-card">
+            <h4>Big Data Fundamentals with PySpark <span class="cert-source">DataCamp · 2026</span></h4>
+            <p class="muted">Learned <strong>distributed data processing and big data fundamentals using PySpark</strong>.</p>
+          </article>
+          <article class="cert-card">
+            <h4>Machine Learning with PySpark <span class="cert-source">DataCamp · 2026</span></h4>
+            <p class="muted">Implemented <strong>scalable machine learning workflows and data analysis using PySpark MLlib</strong>.</p>
+          </article>
+          <article class="cert-card">
+            <h4>MLOps Fundamentals <span class="cert-source">DataCamp · 2025</span></h4>
+            <p class="muted">Learned <strong>end-to-end ML lifecycle management</strong> using MLflow, DVC, and Docker.</p>
+          </article>
+          <article class="cert-card">
+            <h4>Web Development <span class="cert-source">Residential Semester · 2022</span></h4>
+            <p class="muted">Developed proficiency in <strong>Node.js, Express.js, and SQL</strong> for building and deploying scalable web applications.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="container section">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-group">
+            <h3><span class="skill-index">01</span>Programming Languages</h3>
+            <ul class="skill-tags">
+              <li>Python</li>
+              <li>R</li>
+              <li>JavaScript</li>
+              <li>C/C++</li>
+              <li>SQL</li>
+              <li>Bash</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3><span class="skill-index">02</span>Frameworks, Tools &amp; Infrastructure</h3>
+            <ul class="skill-tags">
+              <li>PyTorch</li>
+              <li>TensorFlow</li>
+              <li>Scikit-learn</li>
+              <li>Hugging Face Transformers</li>
+              <li>PySpark</li>
+              <li>SHAP</li>
+              <li>Docker</li>
+              <li>Git</li>
+              <li>Linux/Unix</li>
+              <li>SLURM</li>
+              <li>HPC Clusters</li>
+            </ul>
+          </article>
+          <article class="skill-group">
+            <h3><span class="skill-index">03</span>Bioinformatics</h3>
+            <ul class="skill-tags">
+              <li>Differential expression (DESeq2 / edgeR)</li>
+              <li>Functional enrichment (GSEA, clusterProfiler)</li>
+              <li>Seurat</li>
+              <li>Survival analysis</li>
+              <li>GEO / TCGA data handling</li>
+              <li>Bioconductor</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container section">
+        <h2>Contact</h2>
+        <div class="contact-panel">
+          <a class="contact-option" href="mailto:sadia.ruhama@g.bracu.ac.bd">
+            <span class="contact-detail">
+              <span class="contact-type">University</span>
+              <span class="contact-email">sadia.ruhama@g.bracu.ac.bd</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="contact-option" href="mailto:sadiaruhama77@gmail.com">
+            <span class="contact-detail">
+              <span class="contact-type">Personal</span>
+              <span class="contact-email">sadiaruhama77@gmail.com</span>
+            </span>
+            <span class="contact-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+     </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container back-to-top-wrap">
+        <a class="back-to-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
